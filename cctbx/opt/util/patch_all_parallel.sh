@@ -1,8 +1,8 @@
 #! /usr/bin/env bash
 
-PATCH_SCRIPT=/global/cscratch1/sd/dwpaley/cuda_alcc/alcc-recipes/cctbx/opt/util/patch-rpath_onefile.py
 
 TARGET_ROOT=$1
+PATCH_SCRIPT=$2
 
 for f in $(find $TARGET_ROOT -name "*.so"); do
   while true; do
