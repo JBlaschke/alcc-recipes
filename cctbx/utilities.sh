@@ -62,7 +62,9 @@ mk-env-cgpu () {
 source $ROOT_PREFIX/utilities.sh
 setup-env
 micromamba activate patchelf_env
-$ROOT_PREFIX/opt/util/patch_all_parallel.sh $MAMBA_ROOT_PREFIX/envs/psana_env/lib
+$ROOT_PREFIX/opt/util/patch_all_parallel.sh \\
+  $MAMBA_ROOT_PREFIX/envs/psana_env/lib \\
+  $ROOT_PREFIX/opt/util/patch-rpath_onefile.py
 EOF
 
     chmod +x $ROOT_PREFIX/opt/util/do_patch.sh
