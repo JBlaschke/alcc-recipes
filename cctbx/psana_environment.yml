@@ -1,9 +1,9 @@
 name: psana_env
 channels:
- - defaults
  - lcls-i
  - conda-forge
  - cctbx
+ - defaults
 dependencies:
 # Don't do these -- they interfere with NERSC systems
 # # conda compilers
@@ -20,6 +20,8 @@ dependencies:
  - python=3.9
  - biopython
  - ipython
+ - pybind11
+ - setuptools<60 # https://github.com/cctbx/cctbx_project/issues/710
 
  # testing
  - pytest
@@ -80,3 +82,7 @@ dependencies:
  - scikit-learn
  - pandas
  - pydrive2
+
+ # Avoid numpy 1.21.[01234]
+ # See https://github.com/cctbx/cctbx_project/issues/627
+ - numpy=1.20|>=1.21.5

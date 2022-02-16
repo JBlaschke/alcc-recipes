@@ -110,3 +110,39 @@ fix-sysversions-perlmutter () {
         return 1
     fi
 }
+
+
+
+fix-sysversions-arcticus () {
+
+    if ! [[ -d ${GCC_ROOT}/lib64 ]]
+    then
+        echo "Could not find GCC library dir"
+        return 1
+    fi
+
+    if ! [[ -d ${OPENMPI_DIR}/lib ]]
+    then
+        echo "Could not find OpenMPI library dir"
+        return 1
+    fi
+
+
+    if [[ -d $CONDA_PREFIX ]]
+    then
+        pushd $CONDA_PREFIX/lib
+
+        fix_lib /usr/lib64
+        fix_lib /lib64
+        fix_lib ${CRAY_MPICH_PREFIX}/lib
+        fix_lib ${CRAY_MPICH_PREFIX}/lib-abi-mpich
+        fix_lib ${GCC_PREFIX}/snos/lib64
+
+        popd
+
+        return 0
+    else
+        echo "Could not find target conda library"
+        return 1
+    fi
+}

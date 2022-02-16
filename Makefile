@@ -8,6 +8,11 @@ cori:
 	export NPROC=32
 	cctbx/setup_cori.sh
 
+perlmutter: export NPROC = 64
+
+perlmutter:
+	cctbx/setup_perlmutter.sh
+
 # ......................... basic image ........................................
 image:
 ifdef HAVE_DOCKER

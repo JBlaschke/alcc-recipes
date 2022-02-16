@@ -21,6 +21,14 @@ a completed setup, all you need to do is load any modules and run:
 **WARNING:** If the build script can't find `-lcuda`, then confirm that you're
 building on a Cori GPU compute (instead of a login node).
 
+### Building for Arcticus GPU
+
+* For a complete rebuild run `./setup_arcticus.sh` 
+* This script runs `./arcticus_create_env.sh` to setup the Python environment.  You probably only need to do this once.
+* For a partial rebuild (of an already installed and configured environment)
+  run: `./arcticus_build.sh`
+* For a complete rebuild of the C++ files, you can delete the `build` directory and rerun `./arcticus_build.sh` script.
+
 ### Setting up the LS49 Module
 
 * Clone the `LS49` and `ls49_big_data` repos **inside the modules folder**
@@ -45,6 +53,17 @@ libtbx.configure LS49 ls49_big_data
 1. `module purge`
 2. `module load cgpu gcc cuda openmpi`
 3. `source activate.sh`
+
+### Running on Arcticus
+
+1. `module purge`
+2. `module use /soft/restricted/CNDA/modulefiles`
+3. `module load oneapi cmake`
+4. `source activate.sh`
+
+To run the kokkos unit tests, you need to explicitly load the libsycl.so library:
+
+* `LD_PRELOAD=/soft/restricted/CNDA/sdk/2021.10.30.001/oneapi/compiler/pseudo-20211026/compiler/linux/lib/libsycl.so.5 libtbx.python modules/cctbx_project/simtbx/kokkos/tst_kokkos_lib.py`
 
 ### Running the LS49 Tests
 
