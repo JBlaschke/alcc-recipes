@@ -17,7 +17,7 @@ mk-env () {
     setup-env
 
     micromamba activate
-    micromamba install python=3.8 -c defaults --yes
+    micromamba install python=3.9 -c defaults --yes
 
     if [[ $2 == "perlmutter" ]]
     then
@@ -38,6 +38,9 @@ mk-env () {
         micromamba install mpich mpi4py mpich -c defaults --yes
     elif [[ $1 == "mpicc" ]]
     then
+        # TODO: Hack away the mamba/conda linker
+        mv /img/opt/mamba/envs/psana_env/compiler_compat \
+            /img/opt/mamba/envs/psana_env/compiler_compat.moveaside
         MPICC="$(which mpicc)" pip install --no-binary mpi4py --no-cache-dir \
             mpi4py mpi4py
     elif [[ $1 == "cray-mpich" ]]
@@ -103,7 +106,7 @@ mk-cctbx () {
     if [[ $1 == "classic" ]]
     then
         python bootstrap.py --builder=dials \
-                            --python=37 \
+                            --python=39 \
                             --use-conda ${CONDA_PREFIX} \
                             --nproc=${NPROC:-8} \
                             --config-flags="--enable_cxx11" \
@@ -114,7 +117,7 @@ mk-cctbx () {
     elif [[ $1 == "no-boost" ]]
     then
         python bootstrap.py --builder=dials \
-                            --python=37 \
+                            --python=39 \
                             --use-conda ${CONDA_PREFIX} \
                             --nproc=${NPROC:-8} \
                             --config-flags="--enable_cxx11" \
@@ -126,7 +129,7 @@ mk-cctbx () {
     elif [[ $1 == "cuda" ]]
     then
         python bootstrap.py --builder=dials \
-                            --python=37 \
+                            --python=39 \
                             --use-conda ${CONDA_PREFIX} \
                             --nproc=${NPROC:-8} \
                             --config-flags="--enable_cxx11" \

@@ -17,7 +17,7 @@ dependencies:
  - psana
 
  # python
- - python=3.7
+ - python=3.9
  - biopython
  - ipython
 
@@ -34,8 +34,8 @@ dependencies:
  # graphics
  - pillow
  - reportlab
- # - wxpython
- - wxpython=4.0.*
+ - wxpython
+ # - wxpython=4.0.*
  - pyopengl
  - libtiff
 

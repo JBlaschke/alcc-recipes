@@ -2,7 +2,7 @@ HAVE_DOCKER := $(shell which docker 2>/dev/null)
 HAVE_PODMAN := $(shell which podman 2>/dev/null)
 
 
-lv07: patch3
+shifter: patch3
 
 cori:
 	export NPROC=32
@@ -11,7 +11,7 @@ cori:
 # ......................... basic image ........................................
 image:
 ifdef HAVE_DOCKER
-	docker build -t cctbx-xfel -f docker/Dockerfile .
+	docker build -t cctbx-xfel -f docker/Dockerfile --progress=plain .
 else
 ifdef HAVE_PODMAN
 	podman build -t cctbx-xfel -f docker/Dockerfile --format docker .
@@ -23,7 +23,7 @@ endif
 # ..................... apply patch to python logger ...........................
 patch1: image
 ifdef HAVE_DOCKER
-	docker build -t cctbx-xfel:p1 -f docker/Dockerfile.patch1 .
+	docker build -t cctbx-xfel:p1 -f docker/Dockerfile.patch1 --progress=plain .
 else
 ifdef HAVE_PODMAN
 	podman build -t cctbx-xfel:p1 -f docker/Dockerfile.patch1 --format docker .
@@ -35,7 +35,7 @@ endif
 # .......... add pandas, uc_metrics module, and mpi_experiment branch ..........
 patch2: patch1
 ifdef HAVE_DOCKER
-	docker build -t cctbx-xfel:p2 -f docker/Dockerfile.patch2 .
+	docker build -t cctbx-xfel:p2 -f docker/Dockerfile.patch2 --progress=plain .
 else
 ifdef HAVE_PODMAN
 	podman build -t cctbx-xfel:p2 -f docker/Dockerfile.patch2 --format docker .
@@ -47,7 +47,7 @@ endif
 # ...................... add experiment-specific activate.sh ...................
 patch3: patch2
 ifdef HAVE_DOCKER
-	docker build -t cctbx-xfel:p3 -f docker/Dockerfile.patch3 .
+	docker build -t cctbx-xfel:p3 -f docker/Dockerfile.patch3 --progress=plain .
 else
 ifdef HAVE_PODMAN
 	podman build -t cctbx-xfel:p3 -f docker/Dockerfile.patch3 --format docker .

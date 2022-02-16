@@ -20,7 +20,7 @@ RUN \
         wget                                                                   \
         bash fish                                                              \
         autoconf automake make cmake                                           \
-        gcc g++ gfortran                                                       \
+        gcc g++ gfortran build-essential                                       \
         tar unzip                                                              \
         strace                                                                 \
         patchelf                                                               \
@@ -131,11 +131,12 @@ COPY --chown=user cctbx /img
 RUN cd /img                                                                 && \
     ./opt/get_mamba_linux-64.sh
 
- RUN cd /img                                                                 && \
-     source utilities.sh                                                     && \
-     mk-env mpicc
+RUN cd /img                                                                 && \
+    source utilities.sh                                                     && \
+    mk-env mpicc
 
 RUN cd /img                                                                 && \
+    ./update_bootstrap.sh                                                   && \
     source utilities.sh                                                     && \
     export NPROC=$(nproc)                                                   && \
     mk-cctbx classic
