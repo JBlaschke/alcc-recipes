@@ -6,17 +6,16 @@ RUN apt-get install git-lfs --yes
 
 USER user
 
-# RUN cd /img/modules                                                         && \
-#     git clone https://github.com/yayahjb/ncdist.git                         && \
-#     git clone https://gitlab.com/cctbx/uc_metrics.git
-# RUN cd /img/modules/dials                                                   && \
-#     git checkout mpi_experiment
+RUN cd /img/modules                                                         && \
+    git clone https://gitlab.com/cctbx/psii_spread.git
+RUN cd /img/modules/dials                                                   && \
+    git checkout ly99
 RUN cd /img/modules/dxtbx                                                   && \
-    git checkout xtc_filter
+    git checkout ly99
 # RUN cd /img/modules/cctbx_project                                           && \
 #     git checkout lv07
 RUN cd /img/build                                                           && \
     source ../utilities.sh                                                  && \
     activate                                                                && \
-    libtbx.configure uc_metrics                                             && \
+    libtbx.configure psii_spread                                            && \
     make reconf
