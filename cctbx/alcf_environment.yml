@@ -1,6 +1,5 @@
 name: psana_env
 channels:
- - /soft/restricted/CNDA/sdk/2021.10.30.001/oneapi/conda_channel
  - intel
  - defaults
  - lcls-i
@@ -19,7 +18,7 @@ dependencies:
  - psana
 
  # python
- - python=3.8
+ - python=3.9
  - biopython
  - ipython
  - pybind11
@@ -37,8 +36,8 @@ dependencies:
  # graphics
  - pillow
  - reportlab
-# - wxpython
- - wxpython=4.0.*
+ - wxpython
+# - wxpython=4.0.*
  - pyopengl
  - libtiff
 
@@ -86,4 +85,5 @@ dependencies:
 
  # Avoid numpy 1.21.[01234]
  # See https://github.com/cctbx/cctbx_project/issues/627
- - numpy=1.20|>=1.21.5
+# - numpy=1.20|>=1.21.5
+ - numpy=1.19
