@@ -1,0 +1,89 @@
+name: psana_env
+channels:
+ - defaults
+ - lcls-i
+ - conda-forge
+ - cctbx
+dependencies:
+# Don't do these -- they interfere with NERSC systems
+# # conda compilers
+# - c-compiler
+# - cxx-compiler
+
+ # compilers
+ - scons
+
+ # psana
+ - psana
+
+ # python
+ - python=3.8
+ - biopython
+ - ipython
+ - pybind11
+ - setuptools<60
+ - msgpack-c
+
+ # testing
+ - pytest
+ - pytest-xdist
+ - mock
+
+ # documentation
+ - docutils
+ - numpydoc
+ - sphinx
+
+ # graphics
+ - pillow
+ - reportlab
+ # - wxpython
+ - wxpython=4.0.*
+ - pyopengl
+ - libtiff
+
+ # HDF5 (main libraries come with psana)
+ # - hdf5_plugins                      # [unix]
+ - hdf5-external-filter-plugins  # [unix]
+
+ # other
+ - libsvm
+ - mrcfile
+ - psutil
+
+ # cctbx channel
+ - libsvm_py
+
+ # dials
+ - jinja2
+ - msgpack-python
+ - orderedset
+ - procrunner
+ - python-blosc
+ - scikit-learn
+ - tqdm
+ - eigen
+ - dials-data
+
+ # xia2
+ - tabulate
+
+ # Phenix
+ - send2trash
+ - PyRTF
+
+ # xfel gui
+ - mysql
+ - mysql-connector-python
+ - mysql-connector-c
+ - mysqlclient
+ - sqlite
+ 
+ - pandas
+
+ # perlmutter
+ - libglu
+
+ # Avoid numpy 1.21.[01234]
+ # See https://github.com/cctbx/cctbx_project/issues/627
+ - numpy=1.20|>=1.21.5
