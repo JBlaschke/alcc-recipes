@@ -8,7 +8,7 @@ export BOOSTRAP_SOURCE="https://raw.githubusercontent.com/cctbx/cctbx_project/ma
 pushd $(this)
 if [[ -f bootstrap.py ]]
 then
-    if [[ -z ${LEAVE_BOOSTRAP+x} ]]
+    if [[ -z ${LEAVE_BOOTSTRAP+x} ]]
     then
         rm bootstrap.py
     fi
