@@ -21,6 +21,7 @@ dependencies:
  - biopython
  - ipython
  - pybind11
+ - setuptools<60
 
  # testing
  - pytest
@@ -35,8 +36,7 @@ dependencies:
  # graphics
  - pillow
  - reportlab
-# - wxpython
- - wxpython=4.0.*
+ - wxpython
  - pyopengl
  - libtiff
 

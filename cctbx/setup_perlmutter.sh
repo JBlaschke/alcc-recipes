@@ -3,6 +3,10 @@
 set -e
 
 export ALCC_CCTBX_ROOT=$(readlink -f $(dirname ${BASH_SOURCE[0]}))
+export OMP_PLACES=threads
+export OMP_PROC_BIND=spread
+export KOKKOS_DEVICES="OpenMP;Cuda"
+export KOKKOS_ARCH="Ampere80"
 
 source ${ALCC_CCTBX_ROOT}/utilities.sh
 source ${ALCC_CCTBX_ROOT}/opt/util/fix_lib_nersc.sh
@@ -36,7 +40,13 @@ source ${ALCC_CCTBX_ROOT}/opt/site/nersc_perlmutter.sh
 load-sysenv
 activate
 
+export OMP_PLACES=threads
+export OMP_PROC_BIND=spread
+export KOKKOS_DEVICES="OpenMP;Cuda"
+export KOKKOS_ARCH="Ampere80"
 export CUDA_LAUNCH_BLOCKING=1
 export SIT_DATA=\${OVERWRITE_SIT_DATA:-\$NERSC_SIT_DATA}:\$SIT_DATA
 export SIT_PSDM_DATA=\${OVERWRITE_SIT_PSDM_DATA:-\$NERSC_SIT_PSDM_DATA}
+export MPI4PY_RC_RECV_MPROBE='False'
+export SIT_ROOT=/reg/g/psdm
 EOF

@@ -2,6 +2,10 @@
 
 set -e
 export ALCC_CCTBX_ROOT=$(readlink -f $(dirname ${BASH_SOURCE[0]}))
+export OMP_PLACES=threads
+export OMP_PROC_BIND=spread
+export KOKKOS_DEVICES="OpenMP;SYCL"
+export KOKKOS_ARCH="XeHP"
 
 rm -f ${ALCC_CCTBX_ROOT}/activate.sh || true
 source ${ALCC_CCTBX_ROOT}/utilities_alcf.sh
@@ -25,7 +29,12 @@ source ${ALCC_CCTBX_SITE_ARCTICUS}
 load-sysenv
 activate
 
+export OMP_PLACES=threads
+export OMP_PROC_BIND=spread
+export KOKKOS_DEVICES="OpenMP;SYCL"
+export KOKKOS_ARCH="XeHP"
 #export CUDA_LAUNCH_BLOCKING=1
 #export SIT_DATA=\${OVERWRITE_SIT_DATA:-\$NERSC_SIT_DATA}:\$SIT_DATA
 #export SIT_PSDM_DATA=\${OVERWRITE_SIT_PSDM_DATA:-\$NERSC_SIT_PSDM_DATA}
+#export SIT_ROOT=/reg/g/psdm
 EOF

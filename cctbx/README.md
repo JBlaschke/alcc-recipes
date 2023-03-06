@@ -77,5 +77,5 @@ above):
 
 ```
 mkdir test; cd test
-srun -n 1 -c 10 libtbx.run_tests_parallel module=LS49 module=simtbx nproc=Auto
+srun -n 1 -G 1 -c 10 libtbx.run_tests_parallel module=LS49 module=simtbx nproc=Auto
 ```
