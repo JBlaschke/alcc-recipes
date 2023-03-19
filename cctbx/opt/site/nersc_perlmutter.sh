@@ -2,7 +2,7 @@
 
 
 load-sysenv () {
-    module load PrgEnv-gnu cudatoolkit cpe-cuda
+    module load PrgEnv-gnu cudatoolkit cpe-cuda evp-patch
 }
 
 

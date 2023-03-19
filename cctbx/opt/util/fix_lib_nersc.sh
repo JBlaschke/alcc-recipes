@@ -5,7 +5,7 @@ fix_lib () {
 
     __fix_lib_link () {
 
-        blacklist=(ssl crypto krb5 stdc++)
+        blacklist=(crypto krb5 stdc++)
         fn=$(basename -- $1)
 
         for bl in ${blacklist[@]}

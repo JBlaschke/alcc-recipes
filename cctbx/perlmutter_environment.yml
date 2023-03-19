@@ -4,6 +4,9 @@ channels:
  - lcls-i
  - conda-forge
  - cctbx
+ - pytorch
+ - nvidia
+channel_priority: strict 
 dependencies:
 # Don't do these -- they interfere with NERSC systems
 # # conda compilers
@@ -17,7 +20,7 @@ dependencies:
  - psana
 
  # python
- - python=3.8
+ - python=3.9
  - biopython
  - ipython
  - pybind11
@@ -37,15 +40,13 @@ dependencies:
  # graphics
  - pillow
  - reportlab
- # - wxpython
  - wxpython
  - pyopengl
  - libtiff
 
  # HDF5 (main libraries come with psana)
- # - hdf5_plugins                      # [unix]
+ - hdf5plugin                      # [unix]
  # - hdf5-external-filter-plugins  # [unix]
- - hdf5plugin
 
  # other
  - libsvm
@@ -89,3 +90,9 @@ dependencies:
  # Avoid numpy 1.21.[01234]
  # See https://github.com/cctbx/cctbx_project/issues/627
  - numpy=1.20|>=1.21.5
+
+ # Pytorch
+ - pytorch::pytorch
+ - pytorch::torchvision
+ - pytorch::torchaudio
+ - pytorch::pytorch-cuda=11.7
