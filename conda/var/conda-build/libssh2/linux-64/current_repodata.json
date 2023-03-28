@@ -1,0 +1,34 @@
+{
+  "info": {
+    "subdir": "linux-64"
+  },
+  "packages": {
+    "libssh2-1.10.0-h1670956_0.tar.bz2": {
+      "build": "h1670956_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "fc4b04517809d7565003a38a889ca995",
+      "name": "libssh2",
+      "sha256": "ff0e0bfb05a60b12e889ba6a6dc69c80c3a2cc80e110933cf3b26a0b5676eef9",
+      "size": 2182,
+      "subdir": "linux-64",
+      "timestamp": 1679518877970,
+      "version": "1.10.0"
+    },
+    "libssh2-1.10.0-h56be445_0.tar.bz2": {
+      "build": "h56be445_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "55798528a0fc902ba9b7f0a09094a8a5",
+      "name": "libssh2",
+      "sha256": "8abf773c4abd98dc4e4b37ba98c31818b172510b3980ebab70e55c92c7667b6d",
+      "size": 2176,
+      "subdir": "linux-64",
+      "timestamp": 1679527315118,
+      "version": "1.10.0"
+    }
+  },
+  "packages.conda": {},
+  "removed": [],
+  "repodata_version": 1
+}

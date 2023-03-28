@@ -1,0 +1,22 @@
+{
+  "info": {
+    "subdir": "linux-64"
+  },
+  "packages": {
+    "libgomp-12.2.0-hbf4f601_0.tar.bz2": {
+      "build": "hbf4f601_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "60cc6979396723ef2f576459f51c7d0c",
+      "name": "libgomp",
+      "sha256": "69355c0956c68eba25fa7b49f51787f7eacf1daaaee3223d96a36bca96a4884a",
+      "size": 2163,
+      "subdir": "linux-64",
+      "timestamp": 1679527262673,
+      "version": "12.2.0"
+    }
+  },
+  "packages.conda": {},
+  "removed": [],
+  "repodata_version": 1
+}

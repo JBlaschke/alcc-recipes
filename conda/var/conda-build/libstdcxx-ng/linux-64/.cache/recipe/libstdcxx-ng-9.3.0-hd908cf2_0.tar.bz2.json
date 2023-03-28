@@ -1,0 +1,1 @@
+{"package": {"name": "libstdcxx-ng", "version": "9.3.0"}, "source": {}, "build": {"string": "hd908cf2_0"}, "requirements": {"build": [], "run": []}, "about": {"home": "Local shim for libstdcxx-ng"}, "extra": {"copy_test_source_files": true, "final": true}}

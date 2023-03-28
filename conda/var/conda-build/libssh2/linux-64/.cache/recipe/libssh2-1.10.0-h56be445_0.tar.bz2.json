@@ -1,0 +1,1 @@
+{"package": {"name": "libssh2", "version": "1.10.0"}, "source": {}, "build": {"string": "h56be445_0"}, "requirements": {"build": [], "run": []}, "about": {"home": "Local shim for libssh2"}, "extra": {"copy_test_source_files": true, "final": true}}

@@ -1,0 +1,22 @@
+{
+  "info": {
+    "subdir": "linux-64"
+  },
+  "packages": {
+    "libgcc-ng-12.2.0-hbf4f601_0.tar.bz2": {
+      "build": "hbf4f601_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "ba70a22958dbb92e7b91b4dee05d02f6",
+      "name": "libgcc-ng",
+      "sha256": "e1aae67858977b1617cc6665478c7185749b744c01a74e9486cea62e1e5f079c",
+      "size": 2172,
+      "subdir": "linux-64",
+      "timestamp": 1679527173092,
+      "version": "12.2.0"
+    }
+  },
+  "packages.conda": {},
+  "removed": [],
+  "repodata_version": 1
+}

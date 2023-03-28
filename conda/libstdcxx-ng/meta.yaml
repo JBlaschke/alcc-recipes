@@ -1,0 +1,11 @@
+package:
+  name: libstdcxx-ng
+  version: {{ versions }}
+
+source:
+
+requirements:
+
+about:
+  home: "Local shim for libstdcxx-ng"
+

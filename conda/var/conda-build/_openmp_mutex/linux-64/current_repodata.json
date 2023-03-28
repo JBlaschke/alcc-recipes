@@ -1,0 +1,34 @@
+{
+  "info": {
+    "subdir": "linux-64"
+  },
+  "packages": {
+    "_openmp_mutex-5.1-h32bcef8_0.tar.bz2": {
+      "build": "h32bcef8_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "e976521ff79fadbf1111220b1e998d44",
+      "name": "_openmp_mutex",
+      "sha256": "284648893e20e1ec2593d3431bb5759be242be8dcdb39a78a06682ba572d9fb0",
+      "size": 2162,
+      "subdir": "linux-64",
+      "timestamp": 1679527110989,
+      "version": "5.1"
+    },
+    "_openmp_mutex-5.1-h81a653e_0.tar.bz2": {
+      "build": "h81a653e_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "e608b07b695d68312e18a98dba49813c",
+      "name": "_openmp_mutex",
+      "sha256": "cbe07549474f52d63a51d57b238c8d9752c5b864d238e4b4b82401fc247d6a2a",
+      "size": 2157,
+      "subdir": "linux-64",
+      "timestamp": 1679526871453,
+      "version": "5.1"
+    }
+  },
+  "packages.conda": {},
+  "removed": [],
+  "repodata_version": 1
+}

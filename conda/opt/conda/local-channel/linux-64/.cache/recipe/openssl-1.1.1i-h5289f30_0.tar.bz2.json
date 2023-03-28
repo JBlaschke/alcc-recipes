@@ -1,0 +1,1 @@
+{"package": {"name": "openssl", "version": "1.1.1i"}, "source": {}, "build": {"string": "h5289f30_0"}, "requirements": {"build": [], "run": []}, "about": {"home": "Local shim for openssl"}, "extra": {"copy_test_source_files": true, "final": true}}

@@ -1,0 +1,1 @@
+{"package": {"name": "_openmp_mutex", "version": "5.1"}, "source": {}, "build": {"string": "h32bcef8_0"}, "requirements": {"build": [], "run": []}, "about": {"home": "Local shim for _openmp_mutex"}, "extra": {"copy_test_source_files": true, "final": true}}

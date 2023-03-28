@@ -1,0 +1,22 @@
+{
+  "info": {
+    "subdir": "linux-64"
+  },
+  "packages": {
+    "ncurses-6.4-h29b5de5_0.tar.bz2": {
+      "build": "h29b5de5_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "fdc938174afa6d0adbf76c9eecc74f80",
+      "name": "ncurses",
+      "sha256": "160b9a49558d8d0c2173d80f0ff6cefeb35be79825bf409eb6537bdcc3194b51",
+      "size": 2147,
+      "subdir": "linux-64",
+      "timestamp": 1679527607939,
+      "version": "6.4"
+    }
+  },
+  "packages.conda": {},
+  "removed": [],
+  "repodata_version": 1
+}

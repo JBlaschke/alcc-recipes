@@ -1,0 +1,22 @@
+{
+  "info": {
+    "subdir": "linux-64"
+  },
+  "packages": {
+    "openssl-3.1.0-h50167fe_0.tar.bz2": {
+      "build": "h50167fe_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "c499ac0d23def591cbc289a24dc7f640",
+      "name": "openssl",
+      "sha256": "8f3b1b110c75d56aa17a36a62fe9c8c05d3e6a9cadde22033920cc967a9c81f6",
+      "size": 2162,
+      "subdir": "linux-64",
+      "timestamp": 1679527657465,
+      "version": "3.1.0"
+    }
+  },
+  "packages.conda": {},
+  "removed": [],
+  "repodata_version": 1
+}

@@ -1,0 +1,142 @@
+{
+  "info": {
+    "subdir": "linux-64"
+  },
+  "packages": {
+    "_libgcc_mutex-0.1-h88080c3_0.tar.bz2": {
+      "build": "h88080c3_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "77501e5629d86b05272b5ccb35f34ea3",
+      "name": "_libgcc_mutex",
+      "sha256": "004098e193bf9b1791333aa6b2516070f29300da9acbbbb351579c0b3f9cc347",
+      "size": 2180,
+      "subdir": "linux-64",
+      "timestamp": 1679526861103,
+      "version": "0.1"
+    },
+    "_libgcc_mutex-0.1-he9d485e_0.tar.bz2": {
+      "build": "he9d485e_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "fc01f617476a19bd0bed6b1edcb1b287",
+      "name": "_libgcc_mutex",
+      "sha256": "e7ae320abc870127d44e943d917d1c7a21fd0ae1728519944724ac35b18b1f06",
+      "size": 2160,
+      "subdir": "linux-64",
+      "timestamp": 1679527105122,
+      "version": "0.1"
+    },
+    "_openmp_mutex-5.1-h32bcef8_0.tar.bz2": {
+      "build": "h32bcef8_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "e976521ff79fadbf1111220b1e998d44",
+      "name": "_openmp_mutex",
+      "sha256": "284648893e20e1ec2593d3431bb5759be242be8dcdb39a78a06682ba572d9fb0",
+      "size": 2162,
+      "subdir": "linux-64",
+      "timestamp": 1679527110989,
+      "version": "5.1"
+    },
+    "_openmp_mutex-5.1-h81a653e_0.tar.bz2": {
+      "build": "h81a653e_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "e608b07b695d68312e18a98dba49813c",
+      "name": "_openmp_mutex",
+      "sha256": "cbe07549474f52d63a51d57b238c8d9752c5b864d238e4b4b82401fc247d6a2a",
+      "size": 2157,
+      "subdir": "linux-64",
+      "timestamp": 1679526871453,
+      "version": "5.1"
+    },
+    "libgcc-ng-12.2.0-hbf4f601_0.tar.bz2": {
+      "build": "hbf4f601_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "ba70a22958dbb92e7b91b4dee05d02f6",
+      "name": "libgcc-ng",
+      "sha256": "e1aae67858977b1617cc6665478c7185749b744c01a74e9486cea62e1e5f079c",
+      "size": 2172,
+      "subdir": "linux-64",
+      "timestamp": 1679527173092,
+      "version": "12.2.0"
+    },
+    "libgomp-12.2.0-hbf4f601_0.tar.bz2": {
+      "build": "hbf4f601_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "60cc6979396723ef2f576459f51c7d0c",
+      "name": "libgomp",
+      "sha256": "69355c0956c68eba25fa7b49f51787f7eacf1daaaee3223d96a36bca96a4884a",
+      "size": 2163,
+      "subdir": "linux-64",
+      "timestamp": 1679527262673,
+      "version": "12.2.0"
+    },
+    "libssh2-1.10.0-h1670956_0.tar.bz2": {
+      "build": "h1670956_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "fc4b04517809d7565003a38a889ca995",
+      "name": "libssh2",
+      "sha256": "ff0e0bfb05a60b12e889ba6a6dc69c80c3a2cc80e110933cf3b26a0b5676eef9",
+      "size": 2182,
+      "subdir": "linux-64",
+      "timestamp": 1679518877970,
+      "version": "1.10.0"
+    },
+    "libssh2-1.10.0-h56be445_0.tar.bz2": {
+      "build": "h56be445_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "55798528a0fc902ba9b7f0a09094a8a5",
+      "name": "libssh2",
+      "sha256": "8abf773c4abd98dc4e4b37ba98c31818b172510b3980ebab70e55c92c7667b6d",
+      "size": 2176,
+      "subdir": "linux-64",
+      "timestamp": 1679527315118,
+      "version": "1.10.0"
+    },
+    "libstdcxx-ng-12.2.0-hbf4f601_0.tar.bz2": {
+      "build": "hbf4f601_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "242d26ee5050c7462b436fd40d574edd",
+      "name": "libstdcxx-ng",
+      "sha256": "1ceed77e04d4f62104810ace9eaf00cc9985ad3bb9048449564ebfdea7dfe4f6",
+      "size": 2167,
+      "subdir": "linux-64",
+      "timestamp": 1679527226254,
+      "version": "12.2.0"
+    },
+    "ncurses-6.4-h29b5de5_0.tar.bz2": {
+      "build": "h29b5de5_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "fdc938174afa6d0adbf76c9eecc74f80",
+      "name": "ncurses",
+      "sha256": "160b9a49558d8d0c2173d80f0ff6cefeb35be79825bf409eb6537bdcc3194b51",
+      "size": 2147,
+      "subdir": "linux-64",
+      "timestamp": 1679527607939,
+      "version": "6.4"
+    },
+    "openssl-3.1.0-h50167fe_0.tar.bz2": {
+      "build": "h50167fe_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "c499ac0d23def591cbc289a24dc7f640",
+      "name": "openssl",
+      "sha256": "8f3b1b110c75d56aa17a36a62fe9c8c05d3e6a9cadde22033920cc967a9c81f6",
+      "size": 2162,
+      "subdir": "linux-64",
+      "timestamp": 1679527657465,
+      "version": "3.1.0"
+    }
+  },
+  "packages.conda": {},
+  "removed": [],
+  "repodata_version": 1
+}

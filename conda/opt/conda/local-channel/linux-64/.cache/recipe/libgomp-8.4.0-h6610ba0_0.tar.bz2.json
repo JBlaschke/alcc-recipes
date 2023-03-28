@@ -1,0 +1,1 @@
+{"package": {"name": "libgomp", "version": "8.4.0"}, "source": {}, "build": {"string": "h6610ba0_0"}, "requirements": {"build": [], "run": []}, "about": {"home": "Local shim for libgomp"}, "extra": {"copy_test_source_files": true, "final": true}}

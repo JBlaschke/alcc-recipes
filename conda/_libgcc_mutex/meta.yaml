@@ -1,0 +1,11 @@
+package:
+  name: _libgcc_mutex
+  version: {{ versions }}
+
+source:
+
+requirements:
+
+about:
+  home: "Local shim for _libgcc_mutex"
+

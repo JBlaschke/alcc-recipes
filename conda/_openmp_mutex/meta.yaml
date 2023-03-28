@@ -1,0 +1,11 @@
+package:
+  name: _openmp_mutex
+  version: {{ versions }}
+
+source:
+
+requirements:
+
+about:
+  home: "Local shim for _openmp_mutex"
+

@@ -1,0 +1,1 @@
+{"package": {"name": "_libgcc_mutex", "version": "0.1"}, "source": {}, "build": {"string": "he9d485e_0"}, "requirements": {"build": [], "run": []}, "about": {"home": "Local shim for _libgcc_mutex"}, "extra": {"copy_test_source_files": true, "final": true}}

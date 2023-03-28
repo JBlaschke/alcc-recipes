@@ -1,0 +1,34 @@
+{
+  "info": {
+    "subdir": "linux-64"
+  },
+  "packages": {
+    "_libgcc_mutex-0.1-h88080c3_0.tar.bz2": {
+      "build": "h88080c3_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "77501e5629d86b05272b5ccb35f34ea3",
+      "name": "_libgcc_mutex",
+      "sha256": "004098e193bf9b1791333aa6b2516070f29300da9acbbbb351579c0b3f9cc347",
+      "size": 2180,
+      "subdir": "linux-64",
+      "timestamp": 1679526861103,
+      "version": "0.1"
+    },
+    "_libgcc_mutex-0.1-he9d485e_0.tar.bz2": {
+      "build": "he9d485e_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "fc01f617476a19bd0bed6b1edcb1b287",
+      "name": "_libgcc_mutex",
+      "sha256": "e7ae320abc870127d44e943d917d1c7a21fd0ae1728519944724ac35b18b1f06",
+      "size": 2160,
+      "subdir": "linux-64",
+      "timestamp": 1679527105122,
+      "version": "0.1"
+    }
+  },
+  "packages.conda": {},
+  "removed": [],
+  "repodata_version": 1
+}

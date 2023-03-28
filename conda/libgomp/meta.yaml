@@ -1,0 +1,11 @@
+package:
+  name: libgomp
+  version: {{ versions }}
+
+source:
+
+requirements:
+
+about:
+  home: "Local shim for libgomp"
+

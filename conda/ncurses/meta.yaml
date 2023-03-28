@@ -1,0 +1,11 @@
+package:
+  name: ncurses
+  version: {{ versions }}
+
+source:
+
+requirements:
+
+about:
+  home: "Local shim for ncurses"
+

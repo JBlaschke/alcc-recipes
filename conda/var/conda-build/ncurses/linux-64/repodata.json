@@ -1,0 +1,82 @@
+{
+  "info": {
+    "subdir": "linux-64"
+  },
+  "packages": {
+    "ncurses-5.9-h04553ed_0.tar.bz2": {
+      "build": "h04553ed_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "e83c6c1cb456429d3df1089ab1d5507e",
+      "name": "ncurses",
+      "sha256": "a7b3ad9f321f289981003851f7ff60ffd97c1f82850af714a2e989ab40e7b307",
+      "size": 2161,
+      "subdir": "linux-64",
+      "timestamp": 1679527605621,
+      "version": "5.9"
+    },
+    "ncurses-6.0-h6e893a6_0.tar.bz2": {
+      "build": "h6e893a6_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "ff6d39a8cadb81ad2663ba4296b11649",
+      "name": "ncurses",
+      "sha256": "4552f3f5f7b964566599edf730bdef458ee677bb61c916de7839d970fbc35956",
+      "size": 2162,
+      "subdir": "linux-64",
+      "timestamp": 1679527612690,
+      "version": "6.0"
+    },
+    "ncurses-6.1-hf71168a_0.tar.bz2": {
+      "build": "hf71168a_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "67e74321e0f463ce51ecb402d4603cd1",
+      "name": "ncurses",
+      "sha256": "d8508f0abd90634057803d32b361bc54fcd225299f6a054c0fc78ea0c478ecb8",
+      "size": 2165,
+      "subdir": "linux-64",
+      "timestamp": 1679527603312,
+      "version": "6.1"
+    },
+    "ncurses-6.2-hac2914a_0.tar.bz2": {
+      "build": "hac2914a_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "076bc7f456b567e62b83d1a588a6a13a",
+      "name": "ncurses",
+      "sha256": "316b49499264eef97a639431728f06a7dd9073abeb994353eaef591ecefba408",
+      "size": 2163,
+      "subdir": "linux-64",
+      "timestamp": 1679527610253,
+      "version": "6.2"
+    },
+    "ncurses-6.3-h188bcee_0.tar.bz2": {
+      "build": "h188bcee_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "bad6c3f57c5c31580428ef1ad29338a7",
+      "name": "ncurses",
+      "sha256": "225782962dd93acfcdb4cfbde7d8a9050b7a2525555460afb852ff8143283346",
+      "size": 2168,
+      "subdir": "linux-64",
+      "timestamp": 1679527600767,
+      "version": "6.3"
+    },
+    "ncurses-6.4-h29b5de5_0.tar.bz2": {
+      "build": "h29b5de5_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "fdc938174afa6d0adbf76c9eecc74f80",
+      "name": "ncurses",
+      "sha256": "160b9a49558d8d0c2173d80f0ff6cefeb35be79825bf409eb6537bdcc3194b51",
+      "size": 2147,
+      "subdir": "linux-64",
+      "timestamp": 1679527607939,
+      "version": "6.4"
+    }
+  },
+  "packages.conda": {},
+  "removed": [],
+  "repodata_version": 1
+}

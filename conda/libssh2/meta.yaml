@@ -1,0 +1,11 @@
+package:
+  name: libssh2
+  version: {{ versions }}
+
+source:
+
+requirements:
+
+about:
+  home: "Local shim for libssh2"
+

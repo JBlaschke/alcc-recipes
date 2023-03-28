@@ -1,0 +1,1 @@
+{"package": {"name": "libgcc-ng", "version": "12.1.0"}, "source": {}, "build": {"string": "h9aeeb40_0"}, "requirements": {"build": [], "run": []}, "about": {"home": "Local shim for libgcc-ng"}, "extra": {"copy_test_source_files": true, "final": true}}

@@ -1,0 +1,190 @@
+{
+  "info": {
+    "subdir": "linux-64"
+  },
+  "packages": {
+    "libgomp-10.3.0-h6c89060_0.tar.bz2": {
+      "build": "h6c89060_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "302a1f65da0e9c009f3b2add8ca1732d",
+      "name": "libgomp",
+      "sha256": "aadc0a4e00c0745598e90ff4d40ae2e78bdb86af5777f110a62761f388dcf0f0",
+      "size": 2162,
+      "subdir": "linux-64",
+      "timestamp": 1679527243533,
+      "version": "10.3.0"
+    },
+    "libgomp-10.4.0-h57d9167_0.tar.bz2": {
+      "build": "h57d9167_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "944eb89e1131aef25d9968828a956514",
+      "name": "libgomp",
+      "sha256": "9062d410c7b73e9c13c21680a3dda14633d31f9e71a454700469805ef641392e",
+      "size": 2168,
+      "subdir": "linux-64",
+      "timestamp": 1679527274966,
+      "version": "10.4.0"
+    },
+    "libgomp-11.1.0-h141590a_0.tar.bz2": {
+      "build": "h141590a_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "46e6731a81edc5302a753f7078ed2255",
+      "name": "libgomp",
+      "sha256": "4659e9abb9ee46850fc60d1d324cf4bc4bfdf91493dd1f2a59834720639644e5",
+      "size": 2158,
+      "subdir": "linux-64",
+      "timestamp": 1679527253408,
+      "version": "11.1.0"
+    },
+    "libgomp-11.2.0-hd2d1e73_0.tar.bz2": {
+      "build": "hd2d1e73_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "a9a76d2660baac4394ebce8a3038b625",
+      "name": "libgomp",
+      "sha256": "8a71f5505bc4e48e4578efa923f121a2bd4bf27f083f8c2430de7a3ad9e40bd3",
+      "size": 2161,
+      "subdir": "linux-64",
+      "timestamp": 1679527281172,
+      "version": "11.2.0"
+    },
+    "libgomp-11.3.0-he32a10e_0.tar.bz2": {
+      "build": "he32a10e_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "d112e2c01e8dce6b3e0d76584e914aa3",
+      "name": "libgomp",
+      "sha256": "208250d74c6e5adbcc76109bd61cc631784d25b62d3889d0b5355191b945803a",
+      "size": 2169,
+      "subdir": "linux-64",
+      "timestamp": 1679527241080,
+      "version": "11.3.0"
+    },
+    "libgomp-12.1.0-h9aeeb40_0.tar.bz2": {
+      "build": "h9aeeb40_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "9d99986b5b59c78df8bd0d267550e6c9",
+      "name": "libgomp",
+      "sha256": "19536b7041a141f669dd3471ba09b92289b93a6c8f946a8e8cb28484561a0a16",
+      "size": 2157,
+      "subdir": "linux-64",
+      "timestamp": 1679527278100,
+      "version": "12.1.0"
+    },
+    "libgomp-12.2.0-hbf4f601_0.tar.bz2": {
+      "build": "hbf4f601_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "60cc6979396723ef2f576459f51c7d0c",
+      "name": "libgomp",
+      "sha256": "69355c0956c68eba25fa7b49f51787f7eacf1daaaee3223d96a36bca96a4884a",
+      "size": 2163,
+      "subdir": "linux-64",
+      "timestamp": 1679527262673,
+      "version": "12.2.0"
+    },
+    "libgomp-7.3.0-hf2a5326_0.tar.bz2": {
+      "build": "hf2a5326_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "25ddc426c98875d7bb25912cb88342f6",
+      "name": "libgomp",
+      "sha256": "ebe828d0d706c720d7cfa0098d5f4df68e97591afd51873f3b1ff1889c397e4e",
+      "size": 2168,
+      "subdir": "linux-64",
+      "timestamp": 1679527246012,
+      "version": "7.3.0"
+    },
+    "libgomp-7.5.0-he3b9f8c_0.tar.bz2": {
+      "build": "he3b9f8c_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "4d8dc6775a1e124c5466de0eda457c9e",
+      "name": "libgomp",
+      "sha256": "02dd0fe8aad2a5c7f90a48bedfc6d2eaa27e81e273cb8bcb742f2e7bd3fe3ef2",
+      "size": 2162,
+      "subdir": "linux-64",
+      "timestamp": 1679527271917,
+      "version": "7.5.0"
+    },
+    "libgomp-8.4.0-h6610ba0_0.tar.bz2": {
+      "build": "h6610ba0_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "eadd91f828e5cde9203d67d0c4037f86",
+      "name": "libgomp",
+      "sha256": "3aba8e3213b7b62471df217e5bab70eb509a6367c66afb72f0aa63b65e45e348",
+      "size": 2163,
+      "subdir": "linux-64",
+      "timestamp": 1679527259554,
+      "version": "8.4.0"
+    },
+    "libgomp-8.5.0-ha8a7394_0.tar.bz2": {
+      "build": "ha8a7394_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "d37c41d22f9ecc502dcb37323e663e17",
+      "name": "libgomp",
+      "sha256": "f931ce585baf0783aa844d4486f2160c532d3b24fb21f7f75e60f8ccbb7e639f",
+      "size": 2163,
+      "subdir": "linux-64",
+      "timestamp": 1679527249486,
+      "version": "8.5.0"
+    },
+    "libgomp-9.2.0-h8706c53_0.tar.bz2": {
+      "build": "h8706c53_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "b22b49b35db0912682815b9a5fd45796",
+      "name": "libgomp",
+      "sha256": "49e3294974616590098dd09e6fae1ec98af2d8854c4f2ebdddf5102f94880cf0",
+      "size": 2167,
+      "subdir": "linux-64",
+      "timestamp": 1679527265742,
+      "version": "9.2.0"
+    },
+    "libgomp-9.3.0-hd908cf2_0.tar.bz2": {
+      "build": "hd908cf2_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "304e7e0cc61e4cc123b9e0b488cd4ffa",
+      "name": "libgomp",
+      "sha256": "a8e876f29f718da7ac5ddd4bf198cff0b7e44853ccdb40282a70e8b979a50c19",
+      "size": 2148,
+      "subdir": "linux-64",
+      "timestamp": 1679527295868,
+      "version": "9.3.0"
+    },
+    "libgomp-9.4.0-h4229099_0.tar.bz2": {
+      "build": "h4229099_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "80b01accb9e0e56dd888eb6300cb0ab3",
+      "name": "libgomp",
+      "sha256": "d584ca8acd00339a87fe5f3936b669ca4731dcf49444eac5f6f1949f8ef2e5ec",
+      "size": 2161,
+      "subdir": "linux-64",
+      "timestamp": 1679527256461,
+      "version": "9.4.0"
+    },
+    "libgomp-9.5.0-hff5d94d_0.tar.bz2": {
+      "build": "hff5d94d_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "cdc36b90ea505f59cd9d875c90207e53",
+      "name": "libgomp",
+      "sha256": "2e0d5d0a0eaa5652f2f16c27d74b8b0b5466dcae16dfd616b332a3ab41feed11",
+      "size": 2166,
+      "subdir": "linux-64",
+      "timestamp": 1679527268804,
+      "version": "9.5.0"
+    }
+  },
+  "packages.conda": {},
+  "removed": [],
+  "repodata_version": 1
+}

@@ -1,0 +1,1 @@
+{"package": {"name": "ncurses", "version": "6.2"}, "source": {}, "build": {"string": "hac2914a_0"}, "requirements": {"build": [], "run": []}, "about": {"home": "Local shim for ncurses"}, "extra": {"copy_test_source_files": true, "final": true}}
