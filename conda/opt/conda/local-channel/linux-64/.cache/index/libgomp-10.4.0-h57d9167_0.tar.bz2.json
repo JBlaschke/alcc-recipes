@@ -1,1 +1,1 @@
-{"build": "h57d9167_0", "build_number": 0, "depends": [], "name": "libgomp", "subdir": "linux-64", "timestamp": 1679527274966, "version": "10.4.0", "size": 2168, "md5": "944eb89e1131aef25d9968828a956514", "sha256": "9062d410c7b73e9c13c21680a3dda14633d31f9e71a454700469805ef641392e"}
+{"build": "h57d9167_0", "build_number": 0, "depends": [], "name": "libgomp", "subdir": "linux-64", "timestamp": 1679527274966, "version": "10.4.0", "size": 2319, "md5": "88bbef665abc71f157eee63ea52f25f0", "sha256": "5c4386412360a68fd5d969e0702c4815f114567fdf73c8f1b518fffa2fa34dfd"}

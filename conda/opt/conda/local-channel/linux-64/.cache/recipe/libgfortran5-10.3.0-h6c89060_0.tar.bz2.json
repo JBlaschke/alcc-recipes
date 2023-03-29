@@ -1,0 +1,1 @@
+{"package": {"name": "libgfortran5", "version": "10.3.0"}, "source": {}, "build": {"string": "h6c89060_0"}, "requirements": {"build": [], "run": []}, "about": {"home": "Local shim for libgfortran5"}, "extra": {"copy_test_source_files": true, "final": true}}

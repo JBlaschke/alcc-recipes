@@ -1,0 +1,11 @@
+package:
+  name: libgfortran-ng
+  version: {{ versions }}
+
+source:
+
+requirements:
+
+about:
+  home: "Local shim for libgfortran-ng"
+

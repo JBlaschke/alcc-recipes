@@ -1,1 +1,1 @@
-{"build": "h6e893a6_0", "build_number": 0, "depends": [], "name": "ncurses", "subdir": "linux-64", "timestamp": 1679527612690, "version": "6.0", "size": 2162, "md5": "ff6d39a8cadb81ad2663ba4296b11649", "sha256": "4552f3f5f7b964566599edf730bdef458ee677bb61c916de7839d970fbc35956"}
+{"build": "h6e893a6_0", "build_number": 0, "depends": [], "name": "ncurses", "subdir": "linux-64", "timestamp": 1679527612690, "version": "6.0", "size": 2309, "md5": "0e853837bbdc9d5142ec4b4431374de7", "sha256": "d0d39da88779b9e073c33a021aaf5eaaf8812d23c1ba6f653e7db339210d1bc0"}

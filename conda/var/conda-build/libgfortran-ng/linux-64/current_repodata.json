@@ -1,0 +1,22 @@
+{
+  "info": {
+    "subdir": "linux-64"
+  },
+  "packages": {
+    "libgfortran-ng-12.2.0-hbf4f601_0.tar.bz2": {
+      "build": "hbf4f601_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "7e2b8dc263a6a69f7204287f70c34ac2",
+      "name": "libgfortran-ng",
+      "sha256": "760d37965f7e9f9f909d57cb01f2a4afed085c6f44de419aae5614701005b08e",
+      "size": 2301,
+      "subdir": "linux-64",
+      "timestamp": 1680129859226,
+      "version": "12.2.0"
+    }
+  },
+  "packages.conda": {},
+  "removed": [],
+  "repodata_version": 1
+}

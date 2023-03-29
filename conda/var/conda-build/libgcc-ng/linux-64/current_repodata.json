@@ -7,10 +7,10 @@
       "build": "hbf4f601_0",
       "build_number": 0,
       "depends": [],
-      "md5": "ba70a22958dbb92e7b91b4dee05d02f6",
+      "md5": "54ef0e2441cde0b905f2f61f9337f7af",
       "name": "libgcc-ng",
-      "sha256": "e1aae67858977b1617cc6665478c7185749b744c01a74e9486cea62e1e5f079c",
-      "size": 2172,
+      "sha256": "e299fd520aa1e630797dcb330e5773bc81a30ffe3bf98dde08fa7f761f182599",
+      "size": 2305,
       "subdir": "linux-64",
       "timestamp": 1679527173092,
       "version": "12.2.0"

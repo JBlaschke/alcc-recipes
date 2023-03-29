@@ -7,10 +7,10 @@
       "build": "hbf4f601_0",
       "build_number": 0,
       "depends": [],
-      "md5": "242d26ee5050c7462b436fd40d574edd",
+      "md5": "ab68a8bc350fabfee7c767c5845035c5",
       "name": "libstdcxx-ng",
-      "sha256": "1ceed77e04d4f62104810ace9eaf00cc9985ad3bb9048449564ebfdea7dfe4f6",
-      "size": 2167,
+      "sha256": "1c18a84d5a539e0aceca6793da1bcc30fdc37f61ad1d1a48b0ddc63f1e076332",
+      "size": 2307,
       "subdir": "linux-64",
       "timestamp": 1679527226254,
       "version": "12.2.0"

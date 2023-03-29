@@ -1,1 +1,1 @@
-{"build": "h642b805_0", "build_number": 0, "depends": [], "name": "openssl", "subdir": "linux-64", "timestamp": 1679527699222, "version": "1.1.1k", "size": 2166, "md5": "a058b7ecb5791bf31175ee59e98c640b", "sha256": "d68bcbdd909ec3c54e804616d040c3fe5fecc1586b97d2b1bbb49507ef7ea997"}
+{"build": "h642b805_0", "build_number": 0, "depends": [], "name": "openssl", "subdir": "linux-64", "timestamp": 1679527699222, "version": "1.1.1k", "size": 2326, "md5": "2653d22aa3d9038798b05fb5a50d9ce5", "sha256": "e1a1924ff0063b054f71b79aed627aa7e79d3f1203ab2475d13584f51a20d86d"}

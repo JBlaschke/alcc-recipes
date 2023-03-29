@@ -28,7 +28,7 @@
       "summary": null,
       "tags": null,
       "text_prefix": false,
-      "timestamp": 1679526861,
+      "timestamp": 1679527105,
       "version": "0.1"
     },
     "_openmp_mutex": {
@@ -58,7 +58,7 @@
       "summary": null,
       "tags": null,
       "text_prefix": false,
-      "timestamp": 1679526871,
+      "timestamp": 1679527114,
       "version": "5.1"
     },
     "libgcc-ng": {
@@ -88,7 +88,67 @@
       "summary": null,
       "tags": null,
       "text_prefix": false,
-      "timestamp": 1679527132,
+      "timestamp": 1679527139,
+      "version": "12.2.0"
+    },
+    "libgfortran-ng": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": "Local shim for libgfortran-ng",
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": null,
+      "keywords": null,
+      "license": null,
+      "post_link": false,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "linux-64"
+      ],
+      "summary": null,
+      "tags": null,
+      "text_prefix": false,
+      "timestamp": 1680129879,
+      "version": "12.2.0"
+    },
+    "libgfortran5": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": "Local shim for libgfortran5",
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": null,
+      "keywords": null,
+      "license": null,
+      "post_link": false,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "linux-64"
+      ],
+      "summary": null,
+      "tags": null,
+      "text_prefix": false,
+      "timestamp": 1680129894,
       "version": "12.2.0"
     },
     "libgomp": {
@@ -118,7 +178,7 @@
       "summary": null,
       "tags": null,
       "text_prefix": false,
-      "timestamp": 1679527281,
+      "timestamp": 1679527295,
       "version": "12.2.0"
     },
     "libssh2": {
@@ -148,7 +208,7 @@
       "summary": null,
       "tags": null,
       "text_prefix": false,
-      "timestamp": 1679527308,
+      "timestamp": 1679527312,
       "version": "1.10.0"
     },
     "libstdcxx-ng": {
@@ -178,7 +238,7 @@
       "summary": null,
       "tags": null,
       "text_prefix": false,
-      "timestamp": 1679527211,
+      "timestamp": 1679527216,
       "version": "12.2.0"
     },
     "ncurses": {
@@ -208,7 +268,7 @@
       "summary": null,
       "tags": null,
       "text_prefix": false,
-      "timestamp": 1679527607,
+      "timestamp": 1679527612,
       "version": "6.4"
     },
     "openssl": {

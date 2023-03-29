@@ -7,10 +7,10 @@
       "build": "h29b5de5_0",
       "build_number": 0,
       "depends": [],
-      "md5": "fdc938174afa6d0adbf76c9eecc74f80",
+      "md5": "961a969f9a0fee2c9179aa536463f3e5",
       "name": "ncurses",
-      "sha256": "160b9a49558d8d0c2173d80f0ff6cefeb35be79825bf409eb6537bdcc3194b51",
-      "size": 2147,
+      "sha256": "9b7f38dcc05d0db7e6312b228e06960d42109c341786c5a059eab6a7715f8a13",
+      "size": 2319,
       "subdir": "linux-64",
       "timestamp": 1679527607939,
       "version": "6.4"

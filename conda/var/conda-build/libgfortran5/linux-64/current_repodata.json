@@ -1,0 +1,22 @@
+{
+  "info": {
+    "subdir": "linux-64"
+  },
+  "packages": {
+    "libgfortran5-12.2.0-hbf4f601_0.tar.bz2": {
+      "build": "hbf4f601_0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "52c0dd47b453f74ea076d68f3f30198d",
+      "name": "libgfortran5",
+      "sha256": "19b280b6dd5e9dbb3a1354f128408a007665528c3c284c99ba7c41f2fb6504e7",
+      "size": 2312,
+      "subdir": "linux-64",
+      "timestamp": 1680129909859,
+      "version": "12.2.0"
+    }
+  },
+  "packages.conda": {},
+  "removed": [],
+  "repodata_version": 1
+}

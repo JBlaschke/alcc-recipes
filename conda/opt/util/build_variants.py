@@ -113,6 +113,8 @@ if __name__ == "__main__":
         "_openmp_mutex",
         "libgcc-ng",
         "libstdcxx-ng",
+        "libgfortran-ng",
+        "libgfortran5",
         "libgomp",
         "libssh2",
         "ncurses",

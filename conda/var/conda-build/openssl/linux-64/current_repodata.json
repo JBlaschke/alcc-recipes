@@ -7,10 +7,10 @@
       "build": "h50167fe_0",
       "build_number": 0,
       "depends": [],
-      "md5": "c499ac0d23def591cbc289a24dc7f640",
+      "md5": "e7c513f27752903b9c42fd0e10717998",
       "name": "openssl",
-      "sha256": "8f3b1b110c75d56aa17a36a62fe9c8c05d3e6a9cadde22033920cc967a9c81f6",
-      "size": 2162,
+      "sha256": "db7a31972e52213d626e1ae7b81a83039ab26f070881e5c9cb6bf0adc3a0d49d",
+      "size": 2308,
       "subdir": "linux-64",
       "timestamp": 1679527657465,
       "version": "3.1.0"

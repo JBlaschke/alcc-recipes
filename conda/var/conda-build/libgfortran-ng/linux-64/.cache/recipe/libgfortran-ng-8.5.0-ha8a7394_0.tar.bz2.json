@@ -1,0 +1,1 @@
+{"package": {"name": "libgfortran-ng", "version": "8.5.0"}, "source": {}, "build": {"string": "ha8a7394_0"}, "requirements": {"build": [], "run": []}, "about": {"home": "Local shim for libgfortran-ng"}, "extra": {"copy_test_source_files": true, "final": true}}
