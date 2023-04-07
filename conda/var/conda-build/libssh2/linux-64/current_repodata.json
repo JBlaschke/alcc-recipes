@@ -19,10 +19,10 @@
       "build": "h56be445_0",
       "build_number": 0,
       "depends": [],
-      "md5": "94f03b42e01191c4612e56fdddbf2827",
+      "md5": "1eb702267beab063265553d4fc49f1fd",
       "name": "libssh2",
-      "sha256": "e9a5300d355889f2ca2cc64d818be7e324ac813972066475a8a535a4796b4224",
-      "size": 2324,
+      "sha256": "ebc2bfe6ba85f5c0fa2c0757a9abeb3b95d7761303f700e66afa8013108f5ecc",
+      "size": 2321,
       "subdir": "linux-64",
       "timestamp": 1679527315118,
       "version": "1.10.0"

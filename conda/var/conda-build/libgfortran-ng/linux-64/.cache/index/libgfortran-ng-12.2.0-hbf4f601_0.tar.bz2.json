@@ -1,1 +1,1 @@
-{"build": "hbf4f601_0", "build_number": 0, "depends": [], "name": "libgfortran-ng", "subdir": "linux-64", "timestamp": 1680129859226, "version": "12.2.0", "size": 2301, "md5": "7e2b8dc263a6a69f7204287f70c34ac2", "sha256": "760d37965f7e9f9f909d57cb01f2a4afed085c6f44de419aae5614701005b08e"}
+{"build": "hbf4f601_0", "build_number": 0, "depends": [], "name": "libgfortran-ng", "subdir": "linux-64", "timestamp": 1680129859226, "version": "12.2.0", "size": 2326, "md5": "67a6a20457e1024b9bc2772c42f06585", "sha256": "d5e8aae386845581c4051d0102e62aa99df83c0560781c024760399060d9036c"}

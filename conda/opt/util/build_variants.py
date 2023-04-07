@@ -118,7 +118,7 @@ if __name__ == "__main__":
         "libgomp",
         "libssh2",
         "ncurses",
-        "openssl"
+        # "openssl"
     ]
     channel = "conda-forge"
 

@@ -51,7 +51,9 @@ dependencies:
  - libtiff
 
  # HDF5 (main libraries come with psana)
- - hdf5plugin                      # [unix]
+ - conda-forge::hdf5
+ - conda-forge::h5py
+ - conda-forge::hdf5plugin         # [unix]
  # - hdf5-external-filter-plugins  # [unix]
 
  # other
