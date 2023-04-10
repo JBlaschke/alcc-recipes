@@ -1,0 +1,7 @@
+spec:
+  _tasks:
+    - _fw_name: ScriptTask
+      script: |
+        GREETING="howdy there"
+        echo "${GREETING}, your job launched successfully!" >> howdy.txt
+

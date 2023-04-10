@@ -1,0 +1,5 @@
+spec:
+  _tasks:
+  - _fw_name: ScriptTask
+    script: srun python $HOME/fw_test/cupy_eigh.py
+
