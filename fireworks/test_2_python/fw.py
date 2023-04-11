@@ -23,10 +23,11 @@ def dict_as_vars(var_dict):
 
 def mpi_wf():
     launchpad = setup()
+    launchpad_str = str(launchpad)
 
     qadapter = CommonAdapter(
         q_type = "SLURM",
-        rocket_launch="rlaunch -l my_launchpad.yaml rapidfire",
+        rocket_launch=f"rlaunch --json -l '{launchpad_str}' rapidfire",
         constraint="gpu",
         account="nstaff",
         walltime="'00:02:00'",
@@ -45,7 +46,6 @@ def mpi_wf():
     )
 
     launchpad.add_wf(workflow)
-    # rapidfire(launchpad, FWorker(), qadapter)
     launch_rocket_to_queue(launchpad, FWorker(), qadapter)
 
 
