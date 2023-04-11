@@ -31,10 +31,6 @@ def mpi_wf():
     fw_str_1  = str(fworker_1)
     fworker_2 = FWorker(name="mpi_4_fworker", category="n4")
     fw_str_2  = str(fworker_2)
-    # yaml_dir = abspath(dirname(__file__))
-    # lp_loc = join(yaml_dir, "my_launchpad.yaml")
-    # fw_1_loc = join(yaml_dir, "my_fworker_1.yaml")
-    # fw_2_loc = join(yaml_dir, "my_fworker_2.yaml")
 
     qadapter_1 = CommonAdapter(
         q_type = "SLURM",
