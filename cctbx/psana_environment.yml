@@ -65,6 +65,9 @@ dependencies:
  - dials-data
  - gemmi
 
+ # dxtbx
+ - natsort
+
  # xia2
  - tabulate
 
