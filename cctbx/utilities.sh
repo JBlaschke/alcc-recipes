@@ -17,7 +17,7 @@ mk-env () {
     setup-env
 
     micromamba activate
-    micromamba install python=3.8 -c defaults --yes
+    micromamba install python=3.10 -c defaults --yes
 
     if [[ $2 == "perlmutter" ]]
     then
@@ -107,7 +107,7 @@ mk-cctbx () {
     if [[ $1 == "classic" ]]
     then
         python bootstrap.py --builder=dials \
-                            --python=37 \
+                            --python=310 \
                             --use-conda ${CONDA_PREFIX} \
                             --nproc=${NPROC:-8} \
                             --config-flags="--enable_cxx11" \
@@ -118,7 +118,7 @@ mk-cctbx () {
     elif [[ $1 == "no-boost" ]]
     then
         python bootstrap.py --builder=dials \
-                            --python=37 \
+                            --python=310 \
                             --use-conda ${CONDA_PREFIX} \
                             --nproc=${NPROC:-8} \
                             --config-flags="--enable_cxx11" \
@@ -130,7 +130,7 @@ mk-cctbx () {
     elif [[ $1 == "cuda" ]]
     then
         python bootstrap.py --builder=dials \
-                            --python=37 \
+                            --python=310 \
                             --use-conda ${CONDA_PREFIX} \
                             --nproc=${NPROC:-8} \
                             --config-flags="--enable_cxx11" \
@@ -143,7 +143,7 @@ mk-cctbx () {
     elif [[ $1 == "kokkos" ]]
     then
         python bootstrap.py --builder=dials \
-                            --python=37 \
+                            --python=310 \
                             --use-conda ${CONDA_PREFIX} \
                             --nproc=${NPROC:-8} \
                             --config-flags="--enable_cxx11" \
