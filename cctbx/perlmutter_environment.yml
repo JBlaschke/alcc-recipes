@@ -1,6 +1,6 @@
 name: psana_env
 channels:
- - lcls-i
+ - lcls-ii
  - conda-forge
  - cctbx
  - nodefaults
@@ -19,12 +19,15 @@ dependencies:
  - psana
 
  # python
- - python=3.11
+ - python
  - biopython
  - ipython
  - pybind11
  - setuptools
  - msgpack-cxx
+ - hatchling
+ - boost
+ - boost-cpp
 
  # testing
  - pytest
@@ -42,6 +45,7 @@ dependencies:
  - wxpython
  - pyopengl
  - libtiff
+ - mesa-libgl-devel-conda-x86_64
 
  # HDF5 (main libraries come with psana)
  - h5py
@@ -81,6 +85,7 @@ dependencies:
  # xfel gui
  - mysql
  - mysqlclient
+ - pydrive2
  
  - pandas
 
